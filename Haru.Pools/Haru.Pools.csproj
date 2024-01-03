@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>6.0</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>haru.pools</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Merijn Hendriks</Authors>
+    <Company>Project Haru</Company>
+    <PackageDescription>Object pooling for C#'s runtime types.</PackageDescription>
+    <RepositoryUrl>https://github.com/spt-haru/haru.pools</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="8.0.0" />
+    <PackageReference Include="System.Buffers" Version="4.5.1" />
+    <PackageReference Include="System.Memory" Version="4.5.5" />
+  </ItemGroup>
+
+</Project>
